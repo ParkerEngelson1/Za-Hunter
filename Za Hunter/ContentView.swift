@@ -54,6 +54,7 @@ struct Place: Identifiable {
     let id = UUID()
     let mapItem: MKMapItem
 }
+
 #Preview {
     ContentView()
 }
